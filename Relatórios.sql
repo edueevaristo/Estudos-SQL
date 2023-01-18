@@ -41,8 +41,3 @@ SELECT categoria.nome,
 	JOIN curso ON curso.categoria_id = categoria.id
 GROUP BY 1
 ORDER BY numero_cursos DESC;
-
-
-
-
-
